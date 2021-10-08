@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    /* background: linear-gradient(135deg,#8052ec,#d161ff); */
+    background-image: url(./images/isaac-benhesed-onLbXleIkds-unsplash.jpg);
+    
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #d1d3d4;
+    border-radius: 15px;
+    font-family: 'Poppins',sans-serif;
+}
+
+.list-header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-image: url(./images/samuel-berner-YMzRbw5TC1A-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    min-height: 250px;
+}
+
+.header-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 30px;
+    word-wrap: break-word;
+    padding: 1%;
+    color:black;
+}
+
+.list-body{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.list-items{
+    width: 96%;
+    padding: 2%;
+}
+
+.list-input-field{
+    width: 96%;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.input-text{
+    width: 81%;
+    padding: 2%;
+    display: flex;
+}
+
+.input{
+    border:1px whitesmoke solid; 
+    width: 96%;
+    border-radius: 8px;
+    display: flex;
+    padding: 1% 2% 1% 2%;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: whitesmoke;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.input-add-button{
+    width: 11%;
+    padding: 2%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button-image{
+    width: 30px;
+    height: 30px;
+}
+
+.list-items{
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    padding: 2%;
+}
+
+.book-list{
+    display: flex;
+    width: 94%;
+    padding: 2% 3% 3% 2%;
+    flex-direction: row;
+}
+.book-list-item{
+    width: 74%;
+    padding: 2% 3% 3% 2%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.delete-button-item{
+    width: 14%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.delete-image{
+    width: 25px;
+    height: 25px;
+}
+
+.completed{
+    text-decoration: line-through dotted 3px black;
+}
